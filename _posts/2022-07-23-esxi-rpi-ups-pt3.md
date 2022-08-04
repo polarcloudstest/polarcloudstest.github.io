@@ -76,7 +76,7 @@ One thing we've not touched on in this series yet is the need for notifications 
 
 In my solution script below, I'm going to use Telegram for notifications. Thinking here is that I will still receive the notifications during a power cut on my phone via 4 or 5G as at this point my non-UPS backed WiFi access points will also have had their power cut. 
 
-If you've not seen my post on sending Telegram messages from PowerShell, what are you waiting for? It's simple. [Check it out here](/send-telegram-from-powershell/){:target="_blank"} :wink:
+If you've not seen my post on sending Telegram messages from PowerShell, what are you waiting for? It's simple.  :wink:
 
 Slight update to the Send-Telegram script to support Markdown formatting of messages:
 
