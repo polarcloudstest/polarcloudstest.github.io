@@ -21,7 +21,7 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Polar Clouds                    # the main title
+title: PolarClouds                    # the main title
 
 tagline: The personal blog of me, Chris Hall   # it will display as the sub-title
 
@@ -40,8 +40,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Chris
-  email: example@doamin.com             # change to your email address
+  name: Chris Hall
+  email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/chall32   # change to your twitter homepage
