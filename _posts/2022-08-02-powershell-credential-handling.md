@@ -107,7 +107,7 @@ Yep, our test credential has been deleted.
 ## PowerShell Core on Linux
 As Linux does not have a equivalent Credential Manager, we need to get creative when handling credentials in PowerShell core on Linux.
 
-As luck would have it, a work around is available.  What's more is that we documented and used the workaround in part three of the UPS Triggered Shut Down of ESXi from Raspberry Pi series [HERE](/esxi-rpi-ups-pt3/#powershell-credential-handling){:target="_blank"}.
+As luck would have it, a work around is available.  What's more is that we documented and used the workaround in part three of the UPS Triggered Shut Down of ESXi from Raspberry Pi series 
 
 ## Conclusion and Wrap Up
 A solution to implement and manage PowerShell credentials does exist. What's more it's simple to use.<br>
