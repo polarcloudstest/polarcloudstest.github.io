@@ -21,7 +21,7 @@ platforms:
   -
     type: Reddit
     icon: "fab fa-reddit"
-    link: "https://www.reddit.com/submit?url=URL"
+    link: "https://reddit.com/submit?url=(URL)&title=(TITLE)"
   -
     type: Weibo
     icon: "fab fa-weibo"
