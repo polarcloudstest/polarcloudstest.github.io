@@ -25,6 +25,7 @@ Enter Credential Manager.
 Credential Manager is accessed via Windows control panel:
 
 ![Credential Manager](/images/powershell-credential-handling/powershell-credential-handling-02.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Credential Manager" src="/images/powershell-credential-handling/powershell-credential-handling-02.png">
 
 The advantages of using Credential Manager to store our PowerShell credentials are as follows:
 
@@ -45,6 +46,7 @@ Installation is simple enough:
 Install-Module -Name CredentialManager
 {% endhighlight %}
 ![Install Credential Manager Module](/images/powershell-credential-handling/powershell-credential-handling-03.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Install Credential Manager Module" src="/images/powershell-credential-handling/powershell-credential-handling-03.png">
 
 That's it. Restart your PowerShell session to automatically load the module.
 
@@ -56,12 +58,14 @@ As a bonus, teaming `New-StoredCredential` with `Get-Credential` pops up the cre
 New-StoredCredential -Target "TEST" -Persist "LocalMachine" -Credentials $(Get-Credential) | Out-Null
 {% endhighlight %}
 ![Add Credential Prompt](/images/powershell-credential-handling/powershell-credential-handling-04.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Add Credential Prompt" src="/images/powershell-credential-handling/powershell-credential-handling-04.png">
 
 Enter credentials as normal and click OK.
 
 Checking Credential Manager afterwards:
 
 ![Add Credential Check](/images/powershell-credential-handling/powershell-credential-handling-05.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Add Credential Check" src="/images/powershell-credential-handling/powershell-credential-handling-05.png">
 
 ## Retrieving Credentials
 Again using PowerShell, credentials can be retrieved using `Get-StoredCredential` command as follows:
@@ -70,6 +74,7 @@ Get-StoredCredential -Target "TEST"
 {% endhighlight %}
 
 ![Retrieve Credential](/images/powershell-credential-handling/powershell-credential-handling-06.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Retrieve Credential" src="/images/powershell-credential-handling/powershell-credential-handling-06.png">
 
 ## Using Credentials
 So how do we use the credentials that we can recover from Credential Manager?  For example, how can we use the recovered credentials to, say, logon to a VMware vCenter server?
@@ -77,6 +82,7 @@ So how do we use the credentials that we can recover from Credential Manager?  F
 In the following example, we will recover and use the following credential:
 
 ![Using Credential Check](/images/powershell-credential-handling/powershell-credential-handling-07.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Using Credential Check" src="/images/powershell-credential-handling/powershell-credential-handling-07.png">
 
 The two line script is as follows:
 {% highlight powershell%}
@@ -86,6 +92,7 @@ Connect-VIServer -Server "vcenter.local" -Credential $Credentials
 Yep that works nicely:
 
 ![Using Credential](/images/powershell-credential-handling/powershell-credential-handling-08.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Using Credential" src="/images/powershell-credential-handling/powershell-credential-handling-08.png">
 
 Simple!
 
@@ -96,10 +103,12 @@ Remove-StoredCredential -Target "TEST"
 {% endhighlight %}
 
 ![Delete Credential](/images/powershell-credential-handling/powershell-credential-handling-09.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Delete Credential" src="/images/powershell-credential-handling/powershell-credential-handling-09.png">
 
 Checking Credential Manager:
 
 ![Delete Credential Check](/images/powershell-credential-handling/powershell-credential-handling-10.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="Delete Credential Check" src="/images/powershell-credential-handling/powershell-credential-handling-10.png">
 
 Yep, our test credential has been deleted.
 

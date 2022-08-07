@@ -21,14 +21,15 @@ Last ~~time~~ year we looked at our Uninterruptible Power Supply (UPS) hardware 
 
 As mentioned, this post is part 3 of a multipart series. Find the other parts here:
 
-- Part 1: [Hardware, Requirement, Software, Solution](/esxi-rpi-ups-pt1/){:target="_blank"}
-- Part 2: [Hardware Connectivity and Software Installation](/esxi-rpi-ups-pt2/){:target="_blank"}
+- Part 1: [Hardware, Requirement, Software, Solution](/posts/esxi-rpi-ups-pt1/){:target="_blank"})
+- Part 2: [Hardware Connectivity and Software Installation](/posts/esxi-rpi-ups-pt2/){:target="_blank"})
 - Part 3: This part - Scripting for the win... or should that be for the failure?
 
 First off a solution refresher of what we are trying to achieve in this series.
 
 ## Solution (Refresher)
 ![The Solution](/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="The Solution" src="/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png">
 
 1. Mains electricity fails... power cut!
 2. The UPS signals to the Raspberry Pi that there is a power cut

@@ -26,8 +26,8 @@ Over the posts in this series I'll put together a solution to monitor the UPS as
 
 This post is part 1 of a multipart series. Find the other parts here:
 - Part 1: This part - Hardware, Requirement, Software, Solution<br>
-- Part 2: [Hardware Connectivity and Software Installation](/esxi-rpi-ups-pt2/){:target="_blank"}
-- Part 3: [Scripting for the win... or should that be for the failure?](/esxi-rpi-ups-pt3/){:target="_blank"}
+- Part 2: [Hardware Connectivity and Software Installation](/posts/esxi-rpi-ups-pt2/){:target="_blank"})
+- Part 3: [Scripting for the win... or should that be for the failure?](/posts/esxi-rpi-ups-pt3/){:target="_blank"})
 
 ## Hardware
 Lets look at list of hardware that I wish to run from the [APC Smart-UPS C1500](https://www.apc.com/shop/uk/en/products/APC-Smart-UPS-C-1500VA-LCD-230V/P-SMC1500I) UPS:
@@ -51,6 +51,7 @@ Handling this on a VM run on the ESXi host is tricky as the VM will need to sign
 Pulling this together then:
 
 ![The Solution](/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" alt="The Solution" src="/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png">
 
 1. Mains electricity fails... power cut!
 2. The UPS signals to the Raspberry Pi that there is a power cut
@@ -109,8 +110,8 @@ This post is part 1 of a multipart series.
 
 Find the other parts here:
 - Part 1: This part - Hardware, Requirement, Software, Solution
-- Part 2: [Hardware Connectivity and Software Installation](/esxi-rpi-ups-pt2/){:target="_blank"}
-- Part 3: [Scripting for the win... or should that be for the failure?](/esxi-rpi-ups-pt3/){:target="_blank"}
+- Part 2: [Hardware Connectivity and Software Installation](/posts/esxi-rpi-ups-pt2/){:target="_blank"})
+- Part 3: [Scripting for the win... or should that be for the failure?](/posts/esxi-rpi-ups-pt3/){:target="_blank"})
 
 Look out for future parts coming soon!
 
