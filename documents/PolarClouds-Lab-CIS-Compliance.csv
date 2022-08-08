@@ -1,0 +1,33 @@
+dashboard PolarClouds CIS Security Compliance Summary  does not support csv format
+
+﻿"Name","Host IP Address","Host Operating System","Host Version - Build Number","Host CIS Compliance"
+
+﻿"Name","VM IP Address","VM Operating System","VM CIS Compliance"
+
+﻿"Name","Switch Version","Switch CIS Compliance"
+"DS-TEST","7.0.3","100"
+
+﻿"Name","Port Group VLAN ID","Port Group VLAN Trunk","Port Group CIS Compliance"
+"DS-TEST-DVUplinks","none","0-4094","100"
+
+﻿"Name","Host IP Address","Host Operating System","Host Version - Build Number","Host CIS Compliance"
+"ch-esxi-test.chlab","192.168.10.21","VMware ESXi","7.0.3-19898904","72"
+
+﻿"Name","Port Group VLAN ID","Port Group VLAN Trunk","Port Group CIS Compliance"
+"PG-TEST","0","none","75"
+
+﻿"Name","Switch Version","Switch CIS Compliance"
+
+﻿"Name","VM IP Address","VM Operating System","VM CIS Compliance"
+"WIN-2022-CIS","fe80::61f6:54a6:e0aa:c4a2","Microsoft Windows Server 2022 (64-bit)","98"
+
+﻿"Name","Host IP Address","Host Operating System","Host Version - Build Number","Host CIS Compliance"
+
+﻿"Name","VM IP Address","VM Operating System"
+"WIN-2022","fe80::c6a:44b6:aff2:cb5e","Microsoft Windows Server 2022 (64-bit)"
+"vCLS-386d4abf-c432-4d1f-a4a2-c6355100f4b4","none","Other 4.x or later Linux (64-bit)"
+
+﻿"Name","Switch Version","Switch CIS Compliance"
+
+﻿"Name","Port Group VLAN ID","Port Group VLAN Trunk","Port Group CIS Compliance"
+
