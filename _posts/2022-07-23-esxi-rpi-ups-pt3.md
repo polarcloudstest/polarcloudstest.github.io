@@ -9,7 +9,7 @@ tags:
 - ESXi
 - Linux
 image:
- thumb: /images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-00.png
+thumb: /images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-00.png
 comments: true
 date: 2022-07-23T00:00:00+00:00
 ---
@@ -29,7 +29,6 @@ First off a solution refresher of what we are trying to achieve in this series.
 
 ## Solution (Refresher)
 ![The Solution](/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="The Solution" src="/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png">
 
 1. Mains electricity fails... power cut!
 2. The UPS signals to the Raspberry Pi that there is a power cut

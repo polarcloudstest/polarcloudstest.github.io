@@ -9,7 +9,7 @@ tags:
 - ESXi
 - Linux
 image:
- thumb: /images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-00.png
+thumb: /images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-00.png
 comments: true
 date: 2021-04-21T00:00:00+00:00
 ---
@@ -51,7 +51,6 @@ Handling this on a VM run on the ESXi host is tricky as the VM will need to sign
 Pulling this together then:
 
 ![The Solution](/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="The Solution" src="/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png">
 
 1. Mains electricity fails... power cut!
 2. The UPS signals to the Raspberry Pi that there is a power cut

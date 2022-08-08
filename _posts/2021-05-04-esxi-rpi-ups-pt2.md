@@ -9,7 +9,7 @@ tags:
 - ESXi
 - Linux
 image:
- thumb: /images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-00.png
+thumb: /images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-00.png
 comments: true
 date: 2021-05-04T00:00:00+00:00
 ---
@@ -29,7 +29,6 @@ To recap, we are going to make our Raspberry Pi "the brains of the operation" in
 
 ## Solution (Refresher)
 ![The Solution](/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="The Solution" src="/images/esxi-rpi-ups-pt1/esxi-rpi-ups-pt1-01.png">
 
 1. Mains electricity fails... power cut!
 2. The UPS signals to the Raspberry Pi that there is a power cut
@@ -45,7 +44,6 @@ Let's get to it.
 ## Hardware Connectivity
 Like this:
 ![Hardware Connectivity](/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-05.png)
-<figure><img style="display: block; margin-left: auto; margin-right: auto;" alt="Hardware Connectivity" src="/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-05.png">
 <figcaption><i>Chris-CRAP-Cad</i> :wink:</figcaption>
 </figure>
 - The UPS is connected to the incoming mains electricity supply
@@ -58,7 +56,6 @@ After connecting the UPS and Raspberry Pi via a USB cable, lets check UPS to RPi
 $ lsusb
 {% endhighlight %}
 ![RPi UPS USB Connectivity](/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-01.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="RPi UPS USB Connectivity" src="/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-01.png">
 
 Yep, one APC UPS found. So far, so good.
 
@@ -117,7 +114,6 @@ $ apcaccess status
 {% endhighlight %}
 Nice:
 ![RPi UPS USB Status](/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-02.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="RPi UPS USB Status" src="/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-02.png">
 
 That is apcupsd daemon installed and working.
 
@@ -142,7 +138,6 @@ $ pwsh
 {% endhighlight %}
 
 ![PowerShell on RPi](/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-03.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="PowerShell on RPi" src="/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-03.png">
 
 Yep that works!
 ### Install VMware PowerCLI on Raspberry Pi
@@ -156,7 +151,6 @@ Set-PowerCLIConfiguration -Scope AllUsers -InvalidCertificateAction Ignore -Part
 Finally, lets take PowerCLI for a little spin and connect to a test lab ESXi host:
 
 ![PowerCLI on RPi](/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-04.png)
-<img style="display: block; margin-left: auto; margin-right: auto;" alt="PowerCLI on RPi" src="/images/esxi-rpi-ups-pt2/esxi-rpi-ups-pt2-04.png">
 
 Boom! That's the end of our software installations :smile:
 
