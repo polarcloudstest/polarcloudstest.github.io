@@ -241,7 +241,7 @@ And here is the report:
 
 ![PolarClouds Report](/images/vsphere-compliance-with-vro-pt2/vsphere-compliance-with-vro-pt2-30.png)
 
-Grab your copy of the report: [PDF](/posts/documents/PolarClouds-Lab-CIS-Compliance.pdf){:target="_blank"} [CSV])
+Grab your copy of the report: [PDF](/documents/PolarClouds-Lab-CIS-Compliance.pdf){:target="_blank"} [CSV])
 
 As you can see, I added a slightly tweaked version of the dashboard to the report too, thus making a nice summary page :sunglasses:
 ## Conclusion and Wrap Up
@@ -260,7 +260,7 @@ Compliance standards can and will change.
 Therefore don't take VMware's vRO compliance as the final word for a compliant environment. Third party compliance scanning solutions such as those available from [Tenable](https://www.tenable.com/solutions/compliance){:target="_blank"} and [Qualys](https://www.qualys.com/solutions/compliance/){:target="_blank"} exist for a reason.
 
 ### Chris' Final Thought 2
-Usual [disclaimer](/posts/pages/disclaimer/){:target="_blank"} applies.)
+Usual disclaimer applies.
 <br>
 And that's it!<br>
 
